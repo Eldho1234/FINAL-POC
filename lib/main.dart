@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:timelogger/view/sing_up.dart';
 
 void main() {
   runApp(MyApp());
@@ -7,9 +8,9 @@ void main() {
 class MyApp extends StatelessWidget{
   @override
   Widget build(BuildContext context) {
-   return const MaterialApp(
+   return MaterialApp(
     debugShowCheckedModeBanner: false,
-    home: Text("hello"),
+    home: SignUpPage(),
    );
   }
 }
